@@ -1,0 +1,332 @@
+﻿.banner_area_hack {
+    position: relative;
+    z-index: 1;
+    min-height: 75px;
+    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    margin-bottom: 0px;
+}
+
+.logo_h {
+    height: 48px;
+    width: 321px;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo_white.png);
+    top: -20px;
+    position: relative;
+}
+
+#navbarSupportedContent {
+    overflow: hidden;
+}
+
+
+@media (max-width:992px) {
+    .logo_h {
+        height: 48px;
+        width: 321px;
+        background-repeat: no-repeat;
+        background-image: url(../img/logo_white.png);
+        top: 0px;
+        position: relative;
+    }
+}
+
+.navbar_fixed .logo_h {
+    height: 48px;
+    width: 321px;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo_white.png);
+    top: 0px;
+    position: relative;
+}
+
+
+.home-personal {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 497px;
+    height: 525px;
+    max-width: 100%;
+}
+.dev-logo {
+    float: left;
+}
+
+.fragment-target {
+    position: relative;
+    top: -100px;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+.w-list {
+    width: 260px;
+    max-width: 260px;
+}
+
+.feature_item {
+    height: 250px;
+}
+
+.g_img_item {
+    height: 200px
+}
+
+
+/* Logo Sprite */
+
+.bg-Amazon_Webservices_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -10px -10px;
+}
+
+.bg-Angular_JS_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -126px -10px;
+}
+
+.bg-Bootstrap_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -10px -126px;
+}
+
+.bg-C_Sharp_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -126px -126px;
+}
+
+.bg-devops {
+    width: 96px;
+    height: 43px;
+    background: url('../img/logos/css_sprites.png') -706px -511px;
+}
+
+.bg-Docker_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -242px -10px;
+}
+
+.bg-Dropbox_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -242px -126px;
+}
+
+.bg-Durandal {
+    width: 96px;
+    height: 64px;
+    background: url('../img/logos/css_sprites.png') -706px -343px;
+}
+
+.bg-Durandal {
+    width: 96px;
+    height: 64px;
+    background: url('../img/logos/css_sprites.png') -706px -427px;
+}
+
+.bg-Esri_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -10px -242px;
+}
+
+.bg-GitHub_Icon_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -126px -242px;
+}
+
+.bg-GitLab_Vertical_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -242px -242px;
+}
+
+.bg-Google_Cloud_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -358px -10px;
+}
+
+.bg-Google_Maps_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -358px -126px;
+}
+
+.bg-GraphQL_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -358px -242px;
+}
+
+.bg-Grunt_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -10px -358px;
+}
+
+.bg-Gulp_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -126px -358px;
+}
+
+.bg-HTML_5_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -242px -358px;
+}
+
+.bg-java {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -358px -358px;
+}
+
+.bg-JavaScript_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -474px -10px;
+}
+
+.bg-Jetbrains_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -474px -126px;
+}
+
+.bg-JQuery_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -474px -242px;
+}
+
+.bg-Jquery_Mobile_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -474px -358px;
+}
+
+.bg-Knockout_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -10px -474px;
+}
+
+.bg-Kubernets_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -126px -474px;
+}
+
+.bg-Microsoft_Azure_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -242px -474px;
+}
+
+.bg-Microsoft_Dotnet_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -358px -474px;
+}
+
+.bg-Node_JS_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -474px -474px;
+}
+
+.bg-Node_JS_02 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -590px -10px;
+}
+
+.bg-Npm_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -590px -126px;
+}
+
+.bg-OneDrive_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -590px -242px;
+}
+
+.bg-Oracle_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -590px -358px;
+}
+
+.bg-postman {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -590px -474px;
+}
+
+.bg-Python_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -10px -590px;
+}
+
+.bg-RabbitMQ_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -126px -590px;
+}
+
+.bg-Require_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -242px -590px;
+}
+
+.bg-Sass_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -358px -590px;
+}
+
+.bg-sqlserver {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -474px -590px;
+}
+
+.bg-toad {
+    width: 96px;
+    height: 81px;
+    background: url('../img/logos/css_sprites.png') -706px -242px;
+}
+
+.bg-Typescript_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -590px -590px;
+}
+
+.bg-Visual_Studio_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -706px -10px;
+}
+
+.bg-Vue_JS_01 {
+    width: 96px;
+    height: 96px;
+    background: url('../img/logos/css_sprites.png') -706px -126px;
+}
